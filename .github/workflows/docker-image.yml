@@ -31,10 +31,12 @@ jobs:
     - name: Build Docker image
       run: |
         docker build -t hjrumbo/docker-graphql:0.0.1 .
+        docker build -t hjrumbo/docker-graphql:latest .
         
     - name: Push Docker image
       run: |
         docker push hjrumbo/docker-graphql:0.0.1
+        docker push hjrumbo/docker-graphql:latest
     
     
     
