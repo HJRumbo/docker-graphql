@@ -34,7 +34,7 @@ jobs:
         
     - name: Push Docker image
       run: |
-        docker push hjrumbo/docker-graphql:0.0.1 .
+        docker push hjrumbo/docker-graphql:0.0.1
     
     
     
